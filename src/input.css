@@ -3,5 +3,27 @@
 @tailwind utilities;
 
 h1{
-    @apply bg-sky-950;
+    @apply text-white font-bold;
+    @apply mx-5 my-2;
+}
+h2{
+    @apply text-gray-200 text-sm;
+    @apply mx-5 -my-3;
+}
+body{
+    @apply flex;
+    @apply justify-center;
+    @apply items-center;
+    @apply h-screen;
+}
+
+.pop{
+    @apply flex rounded-xl;
+    @apply bg-red-900;
+    @apply w-96;
+    @apply h-28;
+    @apply flex-col;
+    @apply text-left;
+    @apply shadow-2xl;
+
 }
